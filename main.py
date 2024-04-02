@@ -11,7 +11,7 @@ translator = pipeline("translation", model="Helsinki-NLP/opus-mt-en-fr")
 def main():
     st.title("Natural Language Processing App")
     
-    # Text input or file upload
+    # text input or file upload
     text = st.text_area("Enter text or upload a file")
     
     # NLP task selection
